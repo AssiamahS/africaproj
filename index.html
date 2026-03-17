@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maji Wells Project — Clean Water for Rural Communities</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo">
+        <svg class="logo-icon" viewBox="0 0 48 48" width="42" height="42" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M24 4 C20 12, 12 20, 12 28 A12 12 0 0 0 36 28 C36 20, 28 12, 24 4Z"/>
+          <path d="M20 30 Q24 36 28 30" stroke-width="1.8"/>
+        </svg>
+        <span class="logo-text">MAJI<br>WELLS</span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#about">about</a>
+        <a href="#impact">our impact</a>
+        <a href="#stories">stories</a>
+        <a href="#involved">get involved</a>
+        <a href="#donate" class="nav-donate">donate</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Maji Wells Project</h1>
+      <p class="hero-subtitle">Bringing clean water to rural East Africa</p>
+      <p class="hero-body">
+        Over 400 million people in sub-Saharan Africa lack access to safe drinking water.
+        The Maji Wells Project partners with local communities to build sustainable wells,
+        train maintenance teams, and transform lives — one village at a time.
+      </p>
+      <p class="hero-tagline">Every drop counts. From East Africa, to the world...</p>
+      <div class="hero-actions">
+        <a href="#involved" class="btn btn-outline">Get Updates</a>
+        <a href="#donate" class="btn btn-outline">Help Support</a>
+      </div>
+    </div>
+    <div class="hero-map">
+      <svg viewBox="0 0 500 580" class="africa-svg">
+        <path class="africa-shape" d="M250 20 C230 25,200 35,180 55 C160 75,140 100,130 130 C115 165,100 200,95 230 C90 260,88 290,90 310 C92 330,100 360,115 390 C130 420,140 440,155 455 C170 470,180 480,195 488 C210 496,220 500,235 502 C245 503,255 503,265 502 C280 500,290 496,305 488 C320 480,330 470,345 455 C360 440,370 420,385 390 C400 360,408 330,410 310 C412 290,410 260,405 230 C400 200,385 165,370 130 C360 100,340 75,320 55 C300 35,270 25,250 20Z" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/>
+        <circle cx="310" cy="280" r="6" fill="#e8913a"/>
+        <text x="270" y="270" class="map-label">LAKE VICTORIA</text>
+        <text x="270" y="290" class="map-label-sub">REGION</text>
+      </svg>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <section class="stats-bar">
+    <div class="stats-inner">
+      <div class="stat">
+        <span class="stat-number">127</span>
+        <span class="stat-label">Wells Built</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">84,000+</span>
+        <span class="stat-label">People Served</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">43</span>
+        <span class="stat-label">Communities</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number">92%</span>
+        <span class="stat-label">Wells Still Active</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section section-about" id="about">
+    <div class="container">
+      <div class="two-col">
+        <div class="col-text">
+          <h2>Why Water?</h2>
+          <p>
+            Clean water changes everything. When a village gains access to safe water,
+            children stay in school instead of walking hours to collect it. Waterborne
+            diseases drop. Women gain time to start businesses. Crops get irrigated.
+            Communities thrive.
+          </p>
+          <p>
+            The Maji Wells Project doesn't just drill wells — we build lasting
+            infrastructure by training local technicians, establishing community water
+            committees, and using solar-powered pump systems designed to last decades.
+          </p>
+        </div>
+        <div class="col-image">
+          <div class="image-placeholder about-img">
+            <svg viewBox="0 0 400 300" fill="none">
+              <rect width="400" height="300" rx="8" fill="#2a5a3a"/>
+              <circle cx="200" cy="120" r="50" fill="#3a7a4a" opacity="0.6"/>
+              <path d="M100 300 Q150 200 200 220 Q250 240 300 180 Q350 120 400 160 L400 300Z" fill="#1a4a2a" opacity="0.5"/>
+              <text x="200" y="160" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="14" font-family="Source Sans 3">Community well site</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section class="section section-approach">
+    <div class="container">
+      <h2 class="section-title">Our Approach</h2>
+      <div class="approach-grid">
+        <div class="approach-card">
+          <div class="approach-icon">
+            <svg viewBox="0 0 64 64" width="48" height="48" fill="none" stroke="#e8913a" stroke-width="2.5" stroke-linecap="round">
+              <circle cx="32" cy="20" r="8"/>
+              <path d="M18 50 C18 38 46 38 46 50"/>
+              <circle cx="14" cy="24" r="5" opacity="0.5"/>
+              <circle cx="50" cy="24" r="5" opacity="0.5"/>
+              <path d="M4 48 C4 40 22 40 22 48" opacity="0.5"/>
+              <path d="M42 48 C42 40 60 40 60 48" opacity="0.5"/>
+            </svg>
+          </div>
+          <h3>Community-Led</h3>
+          <p>Every project starts with the community. Local leaders identify needs, choose sites, and form water committees to manage long-term maintenance.</p>
+        </div>
+        <div class="approach-card">
+          <div class="approach-icon">
+            <svg viewBox="0 0 64 64" width="48" height="48" fill="none" stroke="#e8913a" stroke-width="2.5" stroke-linecap="round">
+              <circle cx="32" cy="14" r="8" fill="#e8913a" opacity="0.15"/>
+              <path d="M32 22 L32 52"/>
+              <path d="M20 36 L32 22 L44 36"/>
+              <path d="M16 52 L48 52"/>
+            </svg>
+          </div>
+          <h3>Solar-Powered</h3>
+          <p>Our pump systems run on solar energy — no fuel costs, no emissions. Built with locally-sourced parts that technicians can repair on-site.</p>
+        </div>
+        <div class="approach-card">
+          <div class="approach-icon">
+            <svg viewBox="0 0 64 64" width="48" height="48" fill="none" stroke="#e8913a" stroke-width="2.5" stroke-linecap="round">
+              <rect x="8" y="28" width="48" height="28" rx="4"/>
+              <path d="M16 28 L16 16 C16 10 24 10 24 16 L24 28"/>
+              <path d="M32 28 L32 12 C32 6 40 6 40 12 L40 28"/>
+              <circle cx="20" cy="42" r="4"/>
+              <circle cx="36" cy="42" r="4"/>
+            </svg>
+          </div>
+          <h3>Training & Tools</h3>
+          <p>We train local mechanics and provide complete toolkits. When something breaks, the fix comes from within the community — not from overseas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT -->
+  <section class="section section-impact" id="impact">
+    <div class="container">
+      <div class="two-col reverse">
+        <div class="col-text">
+          <h2>Real Impact, Real Lives</h2>
+          <p>
+            In communities where Maji Wells operates, school attendance among girls
+            has increased by 38%. Cases of cholera and typhoid have dropped by over 60%.
+            Women who once spent 4+ hours daily fetching water now use that time for
+            farming, education, and entrepreneurship.
+          </p>
+          <p>
+            But the numbers only tell part of the story. Behind every well is a village
+            that chose to invest in its own future.
+          </p>
+          <a href="#stories" class="text-link">Read their stories &rarr;</a>
+        </div>
+        <div class="col-image">
+          <div class="image-placeholder impact-img">
+            <svg viewBox="0 0 400 300" fill="none">
+              <rect width="400" height="300" rx="8" fill="#1a3a5a"/>
+              <path d="M0 200 Q100 160 200 190 Q300 220 400 180 L400 300 L0 300Z" fill="#0a2a4a" opacity="0.6"/>
+              <circle cx="280" cy="80" r="30" fill="#2a5a7a" opacity="0.4"/>
+              <text x="200" y="160" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="14" font-family="Source Sans 3">Children at water point</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORIES -->
+  <section class="section section-stories" id="stories">
+    <div class="container">
+      <h2 class="section-title">Stories from the Field</h2>
+      <div class="stories-grid">
+        <article class="story-card">
+          <div class="story-image">
+            <svg viewBox="0 0 400 250" fill="none">
+              <rect width="400" height="250" rx="8" fill="#3a2a1a"/>
+              <text x="200" y="130" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-size="13" font-family="Source Sans 3">Amina's village, Kenya</text>
+            </svg>
+          </div>
+          <div class="story-body">
+            <h3>Amina's Well</h3>
+            <p>"Before the well, I walked two hours each morning. Now my daughter goes to school every day."</p>
+            <span class="story-location">Siaya County, Kenya</span>
+          </div>
+        </article>
+        <article class="story-card">
+          <div class="story-image">
+            <svg viewBox="0 0 400 250" fill="none">
+              <rect width="400" height="250" rx="8" fill="#2a3a2a"/>
+              <text x="200" y="130" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-size="13" font-family="Source Sans 3">Solar pump installation</text>
+            </svg>
+          </div>
+          <div class="story-body">
+            <h3>The Mechanics of Mwanza</h3>
+            <p>Three young technicians trained through the program now maintain 15 wells across their district — and earn a living doing it.</p>
+            <span class="story-location">Mwanza, Tanzania</span>
+          </div>
+        </article>
+        <article class="story-card">
+          <div class="story-image">
+            <svg viewBox="0 0 400 250" fill="none">
+              <rect width="400" height="250" rx="8" fill="#1a2a3a"/>
+              <text x="200" y="130" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-size="13" font-family="Source Sans 3">School water project</text>
+            </svg>
+          </div>
+          <div class="story-body">
+            <h3>A School Transformed</h3>
+            <p>Enrollment at Bukoba Primary doubled after clean water arrived on campus. The school garden now feeds 200 students daily.</p>
+            <span class="story-location">Bukoba, Tanzania</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GET INVOLVED -->
+  <section class="section section-involved" id="involved">
+    <div class="container">
+      <div class="involved-inner">
+        <h2>Get Involved</h2>
+        <p>Whether you donate, volunteer, or simply spread the word — you become part of the solution.</p>
+        <div class="involved-options">
+          <div class="involved-card">
+            <h3>Donate</h3>
+            <p>$30 provides clean water for one person for a year. $3,000 funds an entire community well.</p>
+            <a href="#donate" class="btn btn-warm">Give Now</a>
+          </div>
+          <div class="involved-card">
+            <h3>Volunteer</h3>
+            <p>Engineers, educators, and organizers — we need hands on the ground and behind the scenes.</p>
+            <a href="#" class="btn btn-outline-dark">Learn More</a>
+          </div>
+          <div class="involved-card">
+            <h3>Partner</h3>
+            <p>Organizations and businesses can sponsor wells, fund training programs, or provide equipment.</p>
+            <a href="#" class="btn btn-outline-dark">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DONATE CTA -->
+  <section class="section section-donate" id="donate">
+    <div class="container">
+      <div class="donate-inner">
+        <h2>Fund a Well</h2>
+        <p>100% of donations go directly to water projects. Our operations are funded separately by founding partners.</p>
+        <div class="donate-amounts">
+          <button class="amount-btn">$25</button>
+          <button class="amount-btn active">$50</button>
+          <button class="amount-btn">$100</button>
+          <button class="amount-btn">$250</button>
+          <button class="amount-btn">Other</button>
+        </div>
+        <a href="#" class="btn btn-large btn-warm">Donate Now</a>
+        <p class="donate-note">Secure payment via Stripe. Tax-deductible in the US.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <span class="footer-logo">Maji Wells Project</span>
+        <p>A 501(c)(3) nonprofit bringing sustainable clean water solutions to rural East African communities.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="#about">About</a>
+        <a href="#impact">Our Impact</a>
+        <a href="#stories">Stories</a>
+        <a href="#involved">Get Involved</a>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter / X</a>
+        <a href="#">Newsletter</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Annual Report</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Maji Wells Project. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
