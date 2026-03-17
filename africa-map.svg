@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 0 720 680">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Africa continent -->
+  <path d="M 230 65 L 250 58 L 280 55 L 310 48 L 340 42 L 370 38 L 400 35 L 430 42 L 450 48 L 460 55 L 475 60 L 500 55 L 530 52 L 550 48 L 570 58 L 580 65 L 590 58 L 598 48 L 600 55 L 595 68 L 585 85 L 580 105 L 588 125 L 595 140 L 600 155 L 608 170 L 615 185 L 625 195 L 635 200 L 660 210 L 680 218 L 698 228 L 710 240 L 700 258 L 680 272 L 665 285 L 648 298 L 635 310 L 630 325 L 628 340 L 625 355 L 630 370 L 635 385 L 638 405 L 640 425 L 638 445 L 632 465 L 622 485 L 608 505 L 595 520 L 578 535 L 562 548 L 548 560 L 530 572 L 515 580 L 498 588 L 480 595 L 462 600 L 442 605 L 420 608 L 398 605 L 382 598 L 372 588 L 365 572 L 360 555 L 358 535 L 360 515 L 362 498 L 358 478 L 352 458 L 348 438 L 342 418 L 338 398 L 340 378 L 345 358 L 348 340 L 340 325 L 330 312 L 322 298 L 318 288 L 325 275 L 338 262 L 345 252 L 340 242 L 328 235 L 315 228 L 298 225 L 280 222 L 268 218 L 258 225 L 248 232 L 235 238 L 222 235 L 215 228 L 205 218 L 195 208 L 182 198 L 170 192 L 158 188 L 148 182 L 140 175 L 135 165 L 130 155 L 128 145 L 125 135 L 120 125 L 118 112 L 122 98 L 128 88 L 138 78 L 152 72 L 168 68 L 188 65 L 210 62 L 230 65 Z" fill="rgba(255,255,255,0.13)" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Madagascar -->
+  <path d="M 668 420 L 678 415 L 688 420 L 695 440 L 698 462 L 695 480 L 688 498 L 678 510 L 668 505 L 662 490 L 658 470 L 660 450 L 665 435 Z" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <!-- Lake Victoria region marker -->
+  <circle cx="608" cy="310" r="8" fill="#e8913a" filter="url(#glow)"/>
+  <circle cx="608" cy="310" r="3.5" fill="#fff" opacity="0.7"/>
+  <text x="542" y="300" fill="rgba(255,255,255,0.7)" font-family="sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">LAKE VICTORIA</text>
+  <text x="558" y="320" fill="rgba(255,255,255,0.45)" font-family="sans-serif" font-size="11" letter-spacing="1.2">REGION</text>
+</svg>
